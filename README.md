@@ -157,7 +157,7 @@ import matplotlib.pylab as plt
 from matplotlib.pylab import rcParams
 rcParams['figure.figsize'] = 12, 4
 
-data = pd.read_csv('LargeTrain1.csv')
+data = pd.read_csv('LargeTrain.csv')
 train = pd.DataFrame(data)
 label = 'Class'
 feature = [x for x in train.columns if x not in [label]]
