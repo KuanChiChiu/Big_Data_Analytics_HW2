@@ -137,7 +137,7 @@ plt.figure()
 plot_confusion_matrix(cnf_matrix,classes=class_name,title='Confusion matrix , without normalization')
 plt.show  
 ```
-  ![alt text](https://github.com/KuanChiChiu/Big_Data_Analytics_HW2/GB.jpg)  
+  ![alt text](https://github.com/KuanChiChiu/Big_Data_Analytics_HW2/blob/master/GB.jpg)  
     
     
   ## Xgboost 參數組合分析
@@ -277,4 +277,4 @@ plt.figure()
 plot_confusion_matrix(cnf_matrix,classes=class_name,normalize=True,title='Normalized confusion matrix')
 plt.show
 ```
-  ![alt text](https://github.com/KuanChiChiu/Big_Data_Analytics_HW2/Xgb.jpg)    
+  ![alt text](https://github.com/KuanChiChiu/Big_Data_Analytics_HW2/blob/master/Xgb.jpg)    
