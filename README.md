@@ -126,7 +126,7 @@ X = data[train]
 y = data[target]
 
 X_train , X_test , y_train , y_test = train_test_split(X, y , random_state=0)
-clf = GradientBoostingClassifier(n_estimators=80,max_depth=11,min_samples_split=200,min_samples_leaf=40,subsample=0.9,max_features=19)
+clf = GradientBoostingClassifier(n_estimators=80,max_depth=10,min_samples_split=200,min_samples_leaf=50,subsample=0.8,max_features=19)
 clf.fit(X_train , y_train)
 y_pred = clf.predict(X_test)
 
